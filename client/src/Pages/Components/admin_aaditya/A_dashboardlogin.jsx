@@ -29,7 +29,7 @@ export const Dashboardlogin = () => {
 
       </div>
       <div className={aadityaModule.bte}>
-        <p>Sign In</p>
+        <p>Sign In kardo</p>
       </div>
 
     </div>
