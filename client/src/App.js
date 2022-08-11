@@ -11,6 +11,8 @@ import { Company } from "./Pages/company";
 
 import { Profilesection } from "./Pages/profilesection";
 import { Admin_aaditya } from "./Pages/admin_aaditya";
+import {Dashboard} from "./Pages/Components/admin_aaditya/dashboard_aaditya"
+import {Dashboardlogin} from "./Pages/Components/admin_aaditya/A_dashboardlogin"
 // import {Admin} from "./Pages/admin";
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/profile" element={<Profilesection />} />
         <Route path="/admin_aaditya" element={<Admin_aaditya />} />
+        <Route path="/admin" element={<Dashboard />} />
+        <Route path="/A_dashboarddlogin" element={<Dashboardlogin />} />
         {/* <Route path="/admin" element={<Admin />} /> */}
       </Routes>
     </BrowserRouter>
